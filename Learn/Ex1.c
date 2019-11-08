@@ -28,9 +28,10 @@ int main()
     // информация для третьего ребенка
     firstIntial ='M';
     middeInitial = 'T';
-    number_of_pencils = 9;
+    number_of_pencils = 9; 
     number_of_notebooks = 2;
     printf("%c%c need %d pencils, %d notebooks, and 1 lunchbox\n", firstIntial,middeInitial,number_of_pencils,number_of_notebooks); 
     printf("The total cost is $%.2f\n\n", number_of_pencils*pencils+number_of_notebooks*notebooks+lunchbox);
     return 0;
+    
 }
